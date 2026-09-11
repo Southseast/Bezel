@@ -1,0 +1,27 @@
+name: Release
+
+# Pushing a v* tag builds Bezel and publishes the zip as a GitHub Release.
+on:
+  push:
+    tags: ["v*"]
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # git describe needs the tag itself for version derivation
+          fetch-depth: 0
+
+      - name: Build and package
+        run: ./make.sh zip
+
+      - name: Publish GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: dist/Bezel-*.zip
+          generate_release_notes: true

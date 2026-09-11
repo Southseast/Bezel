@@ -1,0 +1,8 @@
+/* English (default) */
+
+"menu.enable" = "Enable immersive black menu bar";
+"menu.built_in_only" = "Built-in display only";
+"menu.rounded_corners" = "Fill rounded screen corners";
+"menu.fade_animation" = "Fade animation";
+"menu.launch_at_login" = "Launch at login";
+"menu.quit" = "Quit";

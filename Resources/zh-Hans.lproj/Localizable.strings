@@ -1,0 +1,8 @@
+/* 简体中文 */
+
+"menu.enable" = "启用沉浸式黑色菜单栏";
+"menu.built_in_only" = "仅在 Mac 内置显示器上显示";
+"menu.rounded_corners" = "填充屏幕圆角";
+"menu.fade_animation" = "淡入淡出动画";
+"menu.launch_at_login" = "登录时启动";
+"menu.quit" = "退出";
