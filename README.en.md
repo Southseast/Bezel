@@ -2,6 +2,8 @@
 
 English | [简体中文](README.md)
 
+![Bezel in action: solid black menu bar with the notch blended in](Assets/screenshot.png)
+
 A tiny macOS tool that melts the notch into the menu bar: a full-width pure
 black band sits right below the system menu bar, so its translucent material
 samples pure black — the whole menu bar turns black and the notch becomes just
@@ -49,6 +51,8 @@ icon):
 - Checkable items: enable, built-in displays only, rounded corners, fade
   animation, launch at login
 - No separate settings window; toggles apply instantly
+
+![Status menu: every setting, one click away](Assets/menu.png)
 
 ## Versioning & releases
 
